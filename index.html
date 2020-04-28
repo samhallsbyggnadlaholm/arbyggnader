@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>GeoAR.js demo</title>
+    <title>Test html</title>
     <script src='https://aframe.io/releases/0.9.2/aframe.min.js'></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
     <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js">
@@ -20,7 +20,7 @@
 		embedded
 		arjs='sourceType: webcam; debugUIEnabled: false;'>
 
-        <a-entity gltf-model="./assets/3DmodelHaga.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 13.047882; latitude: 56.511325;" animation-mixer/>
+        <a-entity gltf-model="./assets/3DmodelHaga.gltf" scale="0.15 0.15 0.15" gps-entity-place="longitude: 13.047882; latitude: 56.511325;" gps-entity-distance="100;" animation-mixer/>
         <a-camera gps-camera rotation-reader>
 		</a-camera>
 	</a-scene>
